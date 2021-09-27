@@ -16,7 +16,7 @@ jsonResponse.json()
 Dataframe = pd.DataFrame(jsonResponse.json())
 
 
-## get request for
+## get request for Jack Johnson songs
 jsonResponse2 = requests.get('https://itunes.apple.com/search?term=jack+johnson')
 jsonResponse2 =jsonResponse2.json()
 
